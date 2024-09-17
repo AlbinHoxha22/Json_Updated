@@ -1,0 +1,129 @@
+{
+  "nationalities": [
+    { "id": 1, "name": "England" },
+    { "id": 2, "name": "Scotland" },
+    { "id": 3, "name": "Wales" },
+    { "id": 4, "name": "Northern Ireland" },
+    { "id": 5, "name": "China" }
+  ],
+  "championships": [
+    { "id": 1, "name": "World Championship", "nationality_id": 1 },
+    { "id": 2, "name": "UK Championship", "nationality_id": 1 },
+    { "id": 3, "name": "Scottish Open", "nationality_id": 2 },
+    { "id": 4, "name": "Welsh Open", "nationality_id": 3 },
+    { "id": 5, "name": "China Open", "nationality_id": 5 }
+  ],
+  "players": [
+    {
+      "id": 1,
+      "first_name": "Ronnie",
+      "last_name": "O'Sullivan",
+      "nationality_id": 1,
+      "matches": [
+        {
+          "id": 1,
+          "championship_id": 1,
+          "frames_won": 18,
+          "frames_lost": 8,
+          "total_points": 1400
+        },
+        {
+          "id": 2,
+          "championship_id": 2,
+          "frames_won": 10,
+          "frames_lost": 4,
+          "total_points": 800
+        }
+      ],
+      "trophies": [
+        {
+          "id": 1,
+          "name": "World Champion",
+          "year": 2023
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "first_name": "Mark",
+      "last_name": "Selby",
+      "nationality_id": 1,
+      "matches": [
+        {
+          "id": 3,
+          "championship_id": 1,
+          "frames_won": 15,
+          "frames_lost": 18,
+          "total_points": 1300
+        }
+      ],
+      "trophies": [
+        {
+          "id": 2,
+          "name": "UK Champion",
+          "year": 2022
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "first_name": "John",
+      "last_name": "Higgins",
+      "nationality_id": 2,
+      "matches": [
+        {
+          "id": 4,
+          "championship_id": 3,
+          "frames_won": 9,
+          "frames_lost": 10,
+          "total_points": 700
+        }
+      ],
+      "trophies": []
+    },
+    {
+      "id": 4,
+      "first_name": "Mark",
+      "last_name": "Williams",
+      "nationality_id": 3,
+      "matches": [
+        {
+          "id": 5,
+          "championship_id": 4,
+          "frames_won": 6,
+          "frames_lost": 4,
+          "total_points": 500
+        }
+      ],
+      "trophies": [
+        {
+          "id": 3,
+          "name": "Welsh Open Champion",
+          "year": 2023
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "first_name": "Ding",
+      "last_name": "Junhui",
+      "nationality_id": 5,
+      "matches": [
+        {
+          "id": 6,
+          "championship_id": 5,
+          "frames_won": 8,
+          "frames_lost": 6,
+          "total_points": 600
+        }
+      ],
+      "trophies": [
+        {
+          "id": 4,
+          "name": "China Open Champion",
+          "year": 2022
+        }
+      ]
+    }
+  ]
+}
